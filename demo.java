@@ -76,7 +76,7 @@ static void placeMark(int row,int col,char mark)
 
 static  boolean checkColumnWin()
 {
-	for (int j=0;j<2;j++)
+	for (int j=0;j<=2;j++)
    {
 	  if (    board[0][j]!=' '      &&
 	    board[0][j] == board[1][j]  &&        // board[0][0] == board[1][0]
